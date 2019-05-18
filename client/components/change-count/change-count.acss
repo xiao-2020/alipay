@@ -1,4 +1,4 @@
-.change-person-box {
+.change-count-box {
   width: 100rpx;
   height: 50rpx;
   background-color: #ffffff;

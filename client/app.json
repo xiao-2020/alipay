@@ -1,11 +1,29 @@
 {
   "pages": [
-    "pages/index/index/index",
+    "pages/index/index",
     "pages/my/my",
-    "pages/carpool/carpool/carpool"
+    "pages/carpool/carpool"
   ],
   "window": {
-    "defaultTitle": "Todo App",
-    "titleBarColor": "#323239"
+    "showTitleLoading": "YES"
+  },
+  "tabBar": {
+    "textColor": "#333333",
+    "selectedColor": "#ff3300",
+    "backgroundColor": "#FFFFFF",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页"
+      },
+      {
+        "pagePath": "pages/carpool/carpool",
+        "name": "拼车"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "name": "我的"
+      }
+    ]
   }
 }

@@ -1,4 +1,7 @@
+const app = getApp()
 Page({
   data: {},
-  onLoad() {},
+  onLoad() {
+    console.log(app)
+  },
 });

@@ -1,0 +1,5 @@
+<view class="change-count-box flex flex-a-c flex-j-c">
+  <view class="desc" onTap="desc">-</view>
+  <view class="value">{{value}}</view>
+  <view class="add" onTap="add">+</view>
+</view>

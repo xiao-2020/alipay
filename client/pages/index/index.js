@@ -1,4 +1,8 @@
+const app = getApp()
 Page({
   data: {},
-  onLoad() {},
+  onLoad() {
+  },
+  // 初始化数据
+  
 });

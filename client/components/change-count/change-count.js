@@ -9,7 +9,7 @@ Component({
     onGetValue: data => {}
   },
   methods: {
-    descPerson() {
+    desc() {
       if(this.data.value > this.props.min) {
         this.setData({
           value: --this.data.value
@@ -17,7 +17,7 @@ Component({
         this.props.onGetValue(this.data.value)
       }
     },
-    addPerson() {
+    add() {
       if(this.data.value < this.props.max) {
         this.setData({
           value: ++this.data.value
@@ -26,22 +26,18 @@ Component({
       }
     }
   },
-  onInit() {
-    console.log(this,'onInit')
-  },
-  deriveDataFromProps() {
-    console.log(this,'deriveDataFromProps')
-  },
+  // 初始化  注意兼容性
+  onInit() {},
+  // 更新或加载时调用
+  deriveDataFromProps() {},
+  // 挂载时调用
   didMount() {
     this.setData({
       value: this.props.value
     })
-    console.log(this, 'didMount')
   },
-  didUpdate() {
-    console.log(this, 'didUpdate')
-  },
-  didUnmount() {
-    console.log(this, 'didUnmount')
-  },
+  // 更新时钩子函数
+  didUpdate() {},
+  // 销毁时钩子函数
+  didUnmount() {},
 })
