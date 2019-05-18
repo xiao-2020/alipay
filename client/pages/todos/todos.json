@@ -1,5 +1,6 @@
 {
     "usingComponents": {
-        "add-button": "/components/add-button/add-button"
+        "add-button": "/components/add-button/add-button",
+        "change-person": "/components/change-person/change-person"
     }
 }

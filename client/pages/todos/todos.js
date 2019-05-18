@@ -1,7 +1,9 @@
 const app = getApp();
 
 Page({
-  data: {},
+  data: {
+    value: 2
+  },
 
   onLoad() {
     app.getUserInfo().then(
@@ -32,4 +34,10 @@ Page({
   addTodo() {
     my.navigateTo({ url: '../add-todo/add-todo' });
   },
+  // 获取数据， 每个应用此组件的 页面 传入 初始值  但是 值的改变 会通过方法来获取
+  onGetValue(data) {
+    this.setData({
+      value: data
+    })
+  }
 });

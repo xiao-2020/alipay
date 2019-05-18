@@ -1,6 +1,27 @@
 page {
   flex: 1;
   display: flex;
-  background: #323239;
+  background: #ffffff;
   font-family: "pingFang SC" "pingFang";
+}
+.flex {
+  display: flex;
+}
+.flex-a-c {
+  align-items: center;
+}
+.flex-j-c {
+  justify-content: center;
+}
+.flex-d-c {
+  flex-direction: column;
+}
+.flex-j-sb {
+  justify-content: space-between;
+}
+.flex-j-sa {
+  justify-content: space-around;
+}
+.flex-s-0 {
+  flex-shrink: 0;
 }

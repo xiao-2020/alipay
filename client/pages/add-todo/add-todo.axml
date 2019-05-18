@@ -8,7 +8,6 @@
       value="{{inputValue}}"
     />
   </view>
-
   <view class="todo-footer">
     <add-button text="Add Todo" onClickMe="add" ></add-button>
   </view>

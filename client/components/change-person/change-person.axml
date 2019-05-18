@@ -1,0 +1,5 @@
+<view class="change-person-box flex flex-a-c flex-j-c">
+  <view class="desc" onTap="descPerson">-</view>
+  <view class="value">{{value}}</view>
+  <view class="add" onTap="addPerson">+</view>
+</view>
