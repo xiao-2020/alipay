@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/my/my",
-    "pages/carpool/carpool"
+    "pages/carpool/carpool",
+    "pages/picklocation/picklocation",
+    "pages/setdetaillocation/setdetaillocation"
   ],
   "window": {
     "showTitleLoading": "YES"

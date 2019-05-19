@@ -1,9 +1,14 @@
 <view class='index-box wrap-box' >
   <view class="swiper-box">
+    <!-- 选择地址的 -->
     <view class="change-city flex flex-a-c flex-j-c">
       <icon type="info" size="20" />
       <view>郑州市</view>
       <am-icon type="arrow-down" size="{{8}}" color="#333" />
+    </view>
+    <!-- 起始地点 和 终点 -->
+    <view class="address-box">
+      <wheretogo></wheretogo>
     </view>
   </view>
 </view>

@@ -1,3 +1,17 @@
-<view>
-  New Component
+<view class="wheretogo-box flex flex-a-c flex-j-sb">
+  <view class="select-zone flex-s-0">
+    <view class="startpoint flex flex-a-c">
+      <icon type="success" size="5" color="red" />
+      <view a:if="{{start}}" class="choicelocation flex flex-a-c">{{start}}</view>
+      <view a:else class="choicelocation flex flex-a-c phcolor">你要从哪触发？</view>
+    </view>
+    <view class="endpoint flex flex-a-c">
+      <icon type="success" size="5" color="blue" />
+      <view a:if="{{end}}" class="flex flex-a-c noborder choicelocation">{{end}}</view>
+      <view a:else class="noborder flex flex-a-c choicelocation phcolor">你要到哪里？</view>
+    </view>
+  </view>
+  <view class="changebtn flex-s-0" onTap="toggleValue">
+    <icon type="success" size="20" color="red" />
+  </view>
 </view>

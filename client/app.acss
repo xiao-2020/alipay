@@ -4,6 +4,12 @@ page {
   background: #ffffff;
   font-family: "pingFang SC" "pingFang";
 }
+* {
+  box-sizing: border-box;
+}
+.noborder {
+  border: none!important;
+}
 .wrap-box {
   width: 100%;
   height: 100rpx;
@@ -12,6 +18,7 @@ page {
   top: 0;
   left: 0;
 }
+/* flex布局 */
 .flex {
   display: flex;
 }
@@ -33,9 +40,14 @@ page {
 .flex-s-0 {
   flex-shrink: 0;
 }
+/* 控制 backgroud-size */
 .bg-contain {
   background-size: contain;
 }
 .bg-cover {
   background-size: cover;
+}
+/* plcaeholder 颜色 */
+.phcolor {
+  color: #999;
 }

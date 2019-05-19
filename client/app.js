@@ -25,5 +25,12 @@ App({
             });
         });
     },
-
+    // 用户位置信息
+    userLocationInfo: null,
+    getUserLocationInfo() {},
+    // 用户设置的起始点和终点
+    userPickLocation: {
+      start: null,
+      end: null,
+    },
 });

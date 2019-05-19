@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "am-icon": "mini-antui/es/am-icon/index",
-    "card": "mini-antui/es/card/index"
+    "card": "mini-antui/es/card/index",
+    "wheretogo": "/components/wheretogo/wheretogo"
   }
 }
